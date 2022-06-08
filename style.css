@@ -1,0 +1,22 @@
+/*Css Variables*/
+:root{
+    --firstRGBcolor: rgba(146, 121, 221, 0.49);
+    --secondRGBcolor: rgba(146, 165, 221, 0.49);
+}
+
+#colorBody{
+    background: linear-gradient(to top, var(--firstRGBcolor) , var(--secondRGBcolor)) no-repeat;
+}
+
+#colorBody{
+    text-align: center;
+}
+
+button:hover{
+    box-shadow:10px 10px 10px 10px lightblue;
+    transition: box-shadow 1000ms ease-out;
+}
+
+button{
+    border-radius: 40px;
+}
